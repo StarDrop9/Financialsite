@@ -186,6 +186,7 @@
     margin-top: 8px;
     overflow: hidden;
     background-color: rgb(131, 131, 150);
+    transition: transform 250ms ease-out
   }
 
   .terminal::before {
@@ -211,15 +212,19 @@
   }
 
   .terminal:hover{
-    width: 500px;
-    height: 500px;
+    transform: scale(2.0);
+    transform-origin: center
+    /* width: 500px;
+    height: 500px; */
     }
 
 
 .terminal:hover .img-responsive {
-    width: 470px;
+    /*transform: scale(1.9);
+    transform-origin: center
+     width: 470px;
     height: 480px;
-  }
+ */  }
 
   .circle-link {
     height: 40px;
