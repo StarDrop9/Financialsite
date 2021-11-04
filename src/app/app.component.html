@@ -23,8 +23,14 @@
     </a>
 </div>
 
-<div class="content" role="main">
+<div id="pointer">
+  <!-- <app-svg></app-svg> -->
+  <app-trianglespointer></app-trianglespointer>
+</div>
 
+<div class="content" role="main">
+  
+    
   <!-- Highlight Card -->
   <div class="card highlight-card card-small">
 
@@ -47,7 +53,6 @@
     </svg>
 
   </div>
-
   <!-- Resources -->
   <h2>Resources</h2>
   <p>Here are some links to help you get started:</p>
@@ -57,8 +62,6 @@
       <svg class="material-icons" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M5 13.18v4L12 21l7-3.82v-4L12 17l-7-3.82zM12 3L1 9l11 6 9-4.91V17h2V9L12 3z"/></svg>
       <span>Learn NFT Sales</span>
       <svg class="material-icons" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"/></svg>    </a>
-
-    
   </div>
 
   <!-- Next Steps -->
@@ -98,7 +101,7 @@
       <pre *ngSwitchDefault><img class="img-responsive" src="/assets/images/1.png" width="300px" height="300px" alt="image"></pre>
       <pre *ngSwitchCase="'Art2'"><img class="img-responsive" src="/assets/images/2.png" width="300px" height="300px" alt="image"></pre>
       <pre *ngSwitchCase="'Art3'"><img class="img-responsive" src="/assets/images/3.png" width="300px" height="300px" alt="image"></pre>
-      <pre *ngSwitchCase="'Art4'"><img class="img-responsive" src="/assets/images/4.png" width="300px" height="300px" alt="image"></pre>
+      <pre *ngSwitchCase="'Art4'"><img class="img-responsive" src="https://siasky.net/XAGRZjo05hJGN6LOzR9N4e-I9P-A_OwufZfL3CZOp3nV6Q" width="300px" height="300px" alt="image"></pre>
       <pre *ngSwitchCase="'Art5'"><img class="img-responsive" src="/assets/images/5.png" width="300px" height="300px" alt="image"></pre>
       <pre *ngSwitchCase="'Art6'"><img class="img-responsive" src="/assets/images/6.png" width="300px" height="300px" alt="image"></pre>
   </div>
@@ -128,12 +131,6 @@
 
 </div>
 
-<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
-<!-- * * * * * * * * * * * The content above * * * * * * * * * * * -->
-<!-- * * * * * * * * * * is only a placeholder * * * * * * * * * * -->
-<!-- * * * * * * * * * * and can be replaced. * * * * * * * * * * * -->
-<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
-<!-- * * * * * * * * * * End of Placeholder * * * * * * * * * * * -->
-<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
+
 
 <router-outlet></router-outlet>
