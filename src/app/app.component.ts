@@ -7,4 +7,17 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'financialsite';
+  colorSmokeStatus: boolean= false; 
+constructor() {this.colorSmokeStatus = Math.random() >.5 ? true : false;}
+
+
+getSmokeColor() {
+  return this.colorSmokeStatus ? 'grey' : 'yellow';
+}
+
+getCloudColor() {
+  return this.colorSmokeStatus ? 'lightblue' : 'grey';
+}
+
+
 }
